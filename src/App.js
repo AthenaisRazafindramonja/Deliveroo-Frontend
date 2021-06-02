@@ -26,9 +26,11 @@ function App() {
   return isLoading ? (
     <span>En cours de chargement...</span>
   ) : (
-    <div className="container">
+    <div>
       <div className="header">
-        <img className="logo" src={Logo} alt="logo" />
+        <div className="container">
+          <img className="logo" src={Logo} alt="logo" />
+        </div>
       </div>
       <div className="info-restau">
         <div className="description">
