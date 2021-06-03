@@ -3,6 +3,9 @@ import Menu from "../components/Menu";
 const Category = ({ data }) => {
   return (
     <div className="categories-container">
+      <div className="basket">
+        <p>PANIER</p>
+      </div>
       <div className="category">
         {data.map((category, index) => {
           return (
